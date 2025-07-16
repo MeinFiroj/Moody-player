@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import AppUi from "./components/AppUi";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <AppUi />
+    </>
+  );
+};
 
-export default App
+export default App;
